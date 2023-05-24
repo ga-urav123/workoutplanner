@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+    }
+    .bigimg{
+        width: 1100px;
+        height: 511px;
+        position: relative;
+    }
+    .quote1{
+        position: absolute;
+        top: 0%;
+        color: aliceblue;
+        padding: 10px;
+        font-family: cursive;
+        
+
+    }
+    .quote2{
+        position: absolute;
+        top: 0%;
+        color: aliceblue;
+        padding-left: 745px;
+        font-family: cursive;
+        
+
+    }
+    .circularimage1{
+        position: absolute;
+        width: 200;
+        height: 150px;
+        top: 130px;
+        left: 0px;
+        /* padding-top: 50px; */
+        border-radius: 50%;
+    }
+    .circularimage2{
+        position: absolute;
+        width: 200;
+        height: 150px;
+        top: 300px;
+        left: 0px;
+        /* padding-top: 50px; */
+        border-radius: 50%;
+    }
+    .button{
+        position: absolute;
+        top: 85%;
+        left: 85%;
+        transform: translate(-50%,-50%);
+        }
+    .text{
+        width: 150px;
+        padding: 5px;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        color: #15f4ee;
+        font-weight: 300;
+        border: 5px solid #15f4ee;
+        text-transform: capitalize;
+        background-color: black;
+        letter-spacing: 3px;
+        cursor: pointer;
+        border-radius: 100px;
+        transition: 1.5s;
+    }
+    .text:hover{
+        box-shadow: 0 3px 5px 0 #15f4ee inset, 0 3px 5px 0 #15f4ee,
+                    0 3px 5px 0 #15f4ee inset, 0 3px 5px 0 #15f4ee;
+    }
+    .two{
+    /* display: flex; */
+    min-height: 8vh;
+    width: 150px;
+    font-size: 30px;
+
+}
+#two{
+    /* background-color: rgb(249, 192, 6); */
+    background-color: rgb(255, 171, 4);
+    text-decoration: none;
+    color: black;
+    padding: 5px 15px;
+    border-radius: 10%;
+    font-family: 'Times New Roman', Times, serif;
+}
+a:hover
+{
+    background: var(--clr);
+    letter-spacing: 0.10em;
+    box-shadow: 0 0 35px var(--clr);
+}
+.link{
+    position: absolute;
+    top: 90%;
+    color: antiquewhite;
+    left: 82%;
+    text-decoration: none;
+}
+
+</style>
+<body>
+    <div>
+        <img src="images/img1.jpeg" class="bigimg">
+        <img src="images/img.webp" class="circularimage1">
+        <img src="images/frontimg1.jpeg" class="circularimage2">
+        <div class="quote1">
+            <h3>
+                     "Push Yourself 
+                <br> Because No One Else Is Going To Do It
+                <br> For You..."
+            </h3>
+        </div>
+        <div class="quote2">
+            <h3>
+                    "...Your Body Can Stand Almost Anything,
+                <br>It's Your Mind You Have To Convince..."        
+            </h3>
+
+        </div>
+        <div class="button">
+            <a href="secondpage.html" style="--clr:#1e7bff" class="two" id="two">Next</a>
+        </div>
+        <div>
+            <a href="aboutus.html" class="link">About Us</a>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
